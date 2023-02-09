@@ -1,4 +1,4 @@
-@article{adnan-fae-vldb2022,
+@inproceedings{adnan-fae-vldb2022,
 author = {Adnan, Muhammad and Maboud, Yassaman Ebrahimzadeh and Mahajan, Divya and Nair, Prashant J.},
 title = {Accelerating Recommendation System Training by Leveraging Popular Choices},
 year = {2022},
