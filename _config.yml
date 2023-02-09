@@ -20,7 +20,7 @@ title                    : "FAE"
 title_separator          : "-"
 subtitle                 : #"HPCA 2023 Tutorial"
 name                     : "STAR LAB"
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+description              : "Tutorial for HPCA 2023."
 url                      : https://madnan92.github.io
 baseurl                  : "/"
 repository               : "madnan92/madnan92.github.io"
