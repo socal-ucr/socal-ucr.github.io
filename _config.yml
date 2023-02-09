@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Minimal Mistakes"
 title_separator          : "-"
 subtitle                 : "A Jekyll theme"
-name                     : &name "Michael Rose"
+name                     : &name "Muhammad Adnan"
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://madnan92.github.io
 baseurl                  : #"/home"
@@ -214,7 +214,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -225,7 +225,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _docs
   - scope:
       path: ""
@@ -244,7 +244,7 @@ defaults:
       type: recipes
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _pets
@@ -253,7 +253,7 @@ defaults:
       type: pets
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comment: true
   # _portfolio
