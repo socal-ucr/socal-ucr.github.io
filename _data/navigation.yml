@@ -20,14 +20,13 @@ foo:
 
 # main links
 main:
-  url: /home/
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
   - title: "GitHub"
     url: "https://github.com/STAR-Laboratory/Accelerating-RecSys-Training"
-  - title: "Sample Collections"
+  - title: "Publications"
     url: /collection-archive/
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
