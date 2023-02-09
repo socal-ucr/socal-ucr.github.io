@@ -22,7 +22,7 @@ subtitle                 : #"HPCA 2023 Tutorial"
 name                     : "STAR LAB"
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://madnan92.github.io
-baseurl                  : #"/madnan92"
+baseurl                  : "/"
 repository               : "madnan92/madnan92.github.io"
 teaser                   : #"/assets/images/Reco.png"
 logo                     : #"/assets/images/Reco.png"
