@@ -24,8 +24,8 @@ description              : &description "A flexible Jekyll theme for your blog o
 url                      : https://madnan92.github.io
 baseurl                  : #/hpca2023/
 repository               : "madnan92/madnan92.github.io"
-teaser                   : "/assets/images/Reco.png"
-logo                     : "/assets/images/Reco.png"
+teaser                   : #"/assets/images/Reco.png"
+logo                     : #"/assets/images/Reco.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
