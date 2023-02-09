@@ -18,5 +18,18 @@
   </ul>
 </div>
 
-<img.src="starlablogo.jpeg" .alt="Footer.logo" .style="width:100px;height:100px;">
+<div class="page__footer-logo">
+    <img src="./starlablogo.jpeg">
+</div>
+<style>
+.page__footer-logo {
+    padding: 0 6rem 3rem;
+    max-width: 91.71429rem;
+    margin: 0 auto;
+}
+.page__footer-logo img {
+    max-width: 150px;
+}
+</style>
+
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
