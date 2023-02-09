@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "FAE"
 title_separator          : "-"
 subtitle                 : "HPCA 2023 Tutorial"
-name                     : &name "Muhammad Adnan"
+name                     : &name "STAR LAB"
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://madnan92.github.io
 baseurl                  : #"/"
@@ -129,10 +129,10 @@ footer:
       url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://github.com/STAR-Laboratory/Accelerating-RecSys-Training"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@starlab9737"
 
 
 # Reading Files
