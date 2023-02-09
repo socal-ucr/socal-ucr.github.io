@@ -22,7 +22,7 @@ subtitle                 : "HPCA 2023 Tutorial"
 name                     : &name "STAR LAB"
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://madnan92.github.io
-baseurl                  : "/madnan92"
+baseurl                  : #"/madnan92"
 repository               : "madnan92/madnan92.github.io"
 teaser                   : #"/assets/images/Reco.png"
 logo                     : #"/assets/images/Reco.png"
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/michael-rose.jpg"
+  avatar           : "/assets/images/starlablogo.jpeg"
   bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
   location         : "Buffalo, NY"
   links:
