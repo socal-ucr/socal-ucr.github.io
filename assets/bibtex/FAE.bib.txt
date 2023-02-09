@@ -1,0 +1,17 @@
+@article{adnan-fae-vldb2022,
+author = {Adnan, Muhammad and Maboud, Yassaman Ebrahimzadeh and Mahajan, Divya and Nair, Prashant J.},
+title = {Accelerating Recommendation System Training by Leveraging Popular Choices},
+year = {2022},
+issue_date = {September 2021},
+publisher = {VLDB Endowment},
+volume = {15},
+number = {1},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3485450.3485462},
+doi = {10.14778/3485450.3485462},
+abstract = {Recommender models are commonly used to suggest relevant items to a user for e-commerce and online advertisement-based applications. These models use massive embedding tables to store numerical representation of items' and users' categorical variables (memory intensive) and employ neural networks (compute intensive) to generate final recommendations. Training these large-scale recommendation models is evolving to require increasing data and compute resources. The highly parallel neural networks portion of these models can benefit from GPU acceleration however, large embedding tables often cannot fit in the limited-capacity GPU device memory. Hence, this paper deep dives into the semantics of training data and obtains insights about the feature access, transfer, and usage patterns of these models. We observe that, due to the popularity of certain inputs, the accesses to the embeddings are highly skewed with a few embedding entries being accessed up to 10000X more. This paper leverages this asymmetrical access pattern to offer a framework, called FAE, and proposes a hot-embedding aware data layout for training recommender models. This layout utilizes the scarce GPU memory for storing the highly accessed embeddings, thus reduces the data transfers from CPU to GPU. At the same time, FAE engages the GPU to accelerate the executions of these hot embedding entries. Experiments on production-scale recommendation models with real datasets show that FAE reduces the overall training time by 2.3X and 1.52X in comparison to XDL CPU-only and XDL CPU-GPU execution while maintaining baseline accuracy.},
+journal = {Proc. VLDB Endow.},
+month = {jan},
+pages = {127–140},
+numpages = {14}
+}

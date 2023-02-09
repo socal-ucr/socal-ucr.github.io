@@ -25,7 +25,7 @@ The goal of the tutorial is to investigate the system bottlenecks associated wit
 
 ## Focus
 
-- ow does one understand the challenges associated with training big sparse recommendation models on commodity servers using real-world data?
+- How does one understand the challenges associated with training big sparse recommendation models on commodity servers using real-world data?
 - How does one utilize the limited GPU HBM in an efficient way. We need to store large embedding tables without scaling number of GPUs as per embedding table size?
 - How does one investigate the popularity within training data. How can one exploit the skewness in access patterns into embedding tables.
 - How can one train big sparse recommendation models on commodity servers with limited GPU devices?
