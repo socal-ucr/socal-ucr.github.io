@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes"
+title                    : "Training Big Sparse Recommendation Models on Commodity Servers"
 title_separator          : "-"
-subtitle                 : "A Jekyll theme"
+subtitle                 : "HPCA 2023 Tutorial"
 name                     : &name "Muhammad Adnan"
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://madnan92.github.io
