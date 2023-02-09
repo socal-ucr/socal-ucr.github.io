@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "FAE"
 title_separator          : "-"
-subtitle                 : "HPCA 2023 Tutorial"
+subtitle                 : #"HPCA 2023 Tutorial"
 name                     : &name "STAR LAB"
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://madnan92.github.io
