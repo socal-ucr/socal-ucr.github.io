@@ -27,7 +27,7 @@ repository               : "madnan92/madnan92.github.io"
 teaser                   : "/assets/images/Reco.png"
 logo                     : "/assets/images/Reco.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
