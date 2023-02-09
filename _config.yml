@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "HPCA 2023 Tutorial"
+title                    : "Training Big Sparse Recommendation Models on Commodity Servers"
 title_separator          : "-"
-subtitle                 : #"Training Big Sparse Recommendation Models on Commodity Servers"
+subtitle                 : "HPCA 2023 Tutorial"
 name                     : "Muhammad Adnan"
 description              : "An amazing website."
-url                      : #"https://madnan92.github.io"
-baseurl                  : #"/hpca2023"
+url                      : "https://madnan92.github.io"
+baseurl                  : "/hpca2023"
 repository               : #"madnan92/madnan92.github.io"
-teaser                   : "/assets/images/Reco.png"
-logo                     : "/assets/images/Reco.png"
+teaser                   : #"/assets/images/Reco.png"
+logo                     : #"/assets/images/Reco.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
