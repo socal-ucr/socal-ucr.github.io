@@ -24,8 +24,8 @@ main:
     url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
-  - title: "Sample Posts"
-    url: /year-archive/
+  - title: "GitHub"
+    url: "https://github.com/STAR-Laboratory/Accelerating-RecSys-Training"
   - title: "Sample Collections"
     url: /collection-archive/
   - title: "Terms &amp; Privacy Policy"
