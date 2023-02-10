@@ -21,7 +21,7 @@ foo:
 # main links
 main:
   - title: "Index"
-    url: /
+    url: /home/
   - title: "About"
     url: /about/
   - title: "Docs"
