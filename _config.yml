@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "FAE"
+title                    : #"FAE"
 title_separator          : "-"
-subtitle                 : #"HPCA 2023 Tutorial"
+subtitle                 : "HPCA 2023 Tutorial"
 name                     : "STAR LAB"
 description              : "Tutorial for HPCA 2023."
 url                      : https://madnan92.github.io
-baseurl                  : "/home"
+baseurl                  : #"/home"
 repository               : "madnan92/madnan92.github.io"
 teaser                   : #"/assets/images/Reco.png"
 logo                     : #"/assets/images/Reco.png"
