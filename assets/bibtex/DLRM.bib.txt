@@ -1,0 +1,17 @@
+@misc{dlrm,
+  doi = {10.48550/ARXIV.1906.00091},
+  
+  url = {https://arxiv.org/abs/1906.00091},
+  
+  author = {Naumov, Maxim and Mudigere, Dheevatsa and Shi, Hao-Jun Michael and Huang, Jianyu and Sundaraman, Narayanan and Park, Jongsoo and Wang, Xiaodong and Gupta, Udit and Wu, Carole-Jean and Azzolini, Alisson G. and Dzhulgakov, Dmytro and Mallevich, Andrey and Cherniavskii, Ilia and Lu, Yinghai and Krishnamoorthi, Raghuraman and Yu, Ansha and Kondratenko, Volodymyr and Pereira, Stephanie and Chen, Xianjie and Chen, Wenlin and Rao, Vijay and Jia, Bill and Xiong, Liang and Smelyanskiy, Misha},
+  
+  keywords = {Information Retrieval (cs.IR), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences, I.2.6; I.5.0; H.3.3; H.3.4, 68T05},
+  
+  title = {Deep Learning Recommendation Model for Personalization and Recommendation Systems},
+  
+  publisher = {arXiv},
+  
+  year = {2019},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
