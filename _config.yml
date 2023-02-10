@@ -22,7 +22,7 @@ subtitle                 : #"HPCA 2023 Tutorial"
 name                     : "STAR LAB"
 description              : "Tutorial for HPCA 2023."
 url                      : https://madnan92.github.io
-baseurl                  : "/"
+baseurl                  : "/home/"
 repository               : "madnan92/madnan92.github.io"
 teaser                   : #"/assets/images/Reco.png"
 logo                     : #"/assets/images/Reco.png"
