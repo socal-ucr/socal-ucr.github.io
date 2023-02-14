@@ -5,7 +5,7 @@ title: "Training Big Sparse Recommendation Models on Commodity Servers"
 hidden: false
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/main.png
 excerpt: >
   <br />   
 ---
