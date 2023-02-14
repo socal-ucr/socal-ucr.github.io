@@ -1,11 +1,11 @@
 ---
 layout: splash
 permalink: /
-title: ""
+title: "  "
 hidden: false
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/main.png
+  overlay_image: /assets/images/main.jpg
 excerpt: >
   <br />   
 ---
