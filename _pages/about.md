@@ -35,10 +35,10 @@ The goal of the tutorial is to investigate the system bottlenecks associated wit
 | 10:00 am   | Coffee Break                                              |                                                        |        |
 | ---------- | --------------------------------------------------------- | ------------------------------------------------------ | ------ |
 | 10:20 am   | Setting Up resources for training                         | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 10:40 am   | Compute vs Memory Intensity                               | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
+| 10:40 am   | Compute vs Memory Intensity                               | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
 | 11:00 am   | DLRM Communication Time                                   | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
 | 11:15 am   | Baseline DLRM Training                                    | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 11:30 am   | Recommendation Models Training Metri                      | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
+| 11:30 am   | Recommendation Models Training Metric                     | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
 | 11:45 am   | FAE Training                                              | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 12:15 am   | Conclusion                                                | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
+| 12:15 am   | Conclusion                                                | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
 
