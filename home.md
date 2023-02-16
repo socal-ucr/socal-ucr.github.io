@@ -11,7 +11,7 @@ excerpt: >
 ---
 # Training Big Sparse Recommendation Models on Commodity Servers
 
-Recommendation models are an important class of Machine Learning (ML) algorithms that offer a targeted user experience for a variety of web-services. Deep learning based recommendation models are one of the larget DNN workload with several TeraBytes in size and trillions of parameters. Training such big sparse recommendation models on low end GPUs is a big problem. Given the limited capacity of GPU HBM, number of GPU’s scale with embedding table size. Other option is to use commodity servers with limited number of GPU’s where embedding tables are placed on CPU main memory. But placing embedding table on CPU main memory faces system bottlenecks and slows down the overall training process.
+Deep learning based recommendation models are one of the larget DNN workload with several TeraBytes in size and trillions of parameters. Training such big sparse recommendation models on low end GPUs is an open problem. Given the limited capacity of GPU HBM, number of GPU’s scale with embedding table size. Other option is to use commodity servers with limited number of GPU’s where embedding tables are placed on CPU main memory. But placing embedding table on CPU main memory faces system bottlenecks and slows down the overall training process.
 
 ## Goal
 
@@ -20,7 +20,7 @@ The goal of this tutorial is to investigate the system bottlenecks associated wi
 - Understanding the challenges associated with training big sparse recommendation models on commodity servers using real-world data?
 - How to utilize the limited GPU HBM in an efficient way for training big sparse recommendation models.
 - Investigate the popularity within training data and how to exploit the skewness in access patterns into embedding tables.
-- Traininig big sparse recommendation models on commodity servers with limited GPU devices?
+- Traininig big sparse recommendation models on commodity servers with limited GPU devices.
 
 ## Audience
 
@@ -46,13 +46,10 @@ Anyone looking for understanding the basics of deep learning based recommendatio
 | 9:15 am    | Setting Up resources for training                         | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
 | 10:00 am   | Coffee Break                                              |                                                        |        |
 | ---------- | --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 10:20 am   | Setting Up resources for training                         | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 10:40 am   | Compute vs Memory Intensity                               | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
-| 11:00 am   | DLRM Communication Time                                   | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 11:15 am   | Baseline DLRM Training                                    | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 11:30 am   | Recommendation Models Training Metric                     | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 11:45 am   | FAE Training                                              | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 12:15 am   | Conclusion                                                | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
+| 10:20 am   | Compute vs Memory Intensity                               | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
+| 10:40 am   | Baseline DLRM Training Profiling                          | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
+| 11:15 am   | FAE Training                                              | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
+| 12:10 am   | Conclusion                                                | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
 
 
 

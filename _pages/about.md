@@ -14,13 +14,12 @@ Deep learning based recommendation models are a disaggregated conflation of comp
 The goal of the tutorial is to investigate the system bottlenecks associated with placing embedding on CPU main memory and optimizing the embedding placement on commodity servers without scaling the number of GPU devices. We aim to use our work at [VLDB 2022](https://dl.acm.org/doi/10.14778/3485450.3485462).
 
 
-## Focus
+## Goal
 
-- How does one understand the challenges associated with training big sparse recommendation models on commodity servers using real-world data?
-- How does one utilize the limited GPU HBM in an efficient way. We need to store large embedding tables without scaling number of GPUs as per embedding table size?
-- How does one investigate the popularity within training data. How can one exploit the skewness in access patterns into embedding tables.
-- How can one train big sparse recommendation models on commodity servers with limited GPU devices?
-- What are the possible embedding placement strategies currently employed?
+- Understanding the challenges associated with training big sparse recommendation models on commodity servers using real-world data?
+- How to utilize the limited GPU HBM in an efficient way for training big sparse recommendation models.
+- Investigate the popularity within training data and how to exploit the skewness in access patterns into embedding tables.
+- Traininig big sparse recommendation models on commodity servers with limited GPU devices.
 
 
 
@@ -34,11 +33,8 @@ The goal of the tutorial is to investigate the system bottlenecks associated wit
 | 9:15 am    | Setting Up resources for training                         | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
 | 10:00 am   | Coffee Break                                              |                                                        |        |
 | ---------- | --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 10:20 am   | Setting Up resources for training                         | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 10:40 am   | Compute vs Memory Intensity                               | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
-| 11:00 am   | DLRM Communication Time                                   | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 11:15 am   | Baseline DLRM Training                                    | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 11:30 am   | Recommendation Models Training Metric                     | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 11:45 am   | FAE Training                                              | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 12:15 am   | Conclusion                                                | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
+| 10:20 am   | Compute vs Memory Intensity                               | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
+| 10:40 am   | Baseline DLRM Training Profiling                          | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
+| 11:15 am   | FAE Training                                              | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
+| 12:10 am   | Conclusion                                                | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
 
