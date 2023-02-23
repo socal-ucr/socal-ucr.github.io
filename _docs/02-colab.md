@@ -3,6 +3,7 @@ title: "Setting Up Colab"
 permalink: /docs/colab/
 excerpt: "Setting up colab for tutorial."
 last_modified_at: 2018-03-20T15:19:22-04:00
+toc: true
 ---
 
 Open colab using [link](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=Nma_JWh-W-IF)
@@ -34,6 +35,8 @@ You can view your resources by `Connect` --> `View resources`
 <figure>
   <img src="{{ '/assets/tutorial/connect.png' }}">
 </figure>
+
+You will see a GPU device in resources.
 
 <figure>
   <img src="{{ '/assets/tutorial/resources.png' }}">

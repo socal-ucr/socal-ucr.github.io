@@ -40,8 +40,8 @@ docs:
         url: /docs/quick-start-guide/
       - title: "Setting Up Colab"
         url: /docs/colab/
-      - title: "Pre-processing Training Data"
-        #url: /docs/installation/
+      - title: "Setting Up Github Repo"
+        url: /docs/github/
       - title: "Setting Up DLRM"
         #url: /docs/upgrading/
       - title: "Characterizing Access Pattern"
