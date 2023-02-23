@@ -42,10 +42,8 @@ docs:
         url: /docs/colab/
       - title: "Setting Up Github Repo"
         url: /docs/github/
-      - title: "Setting Up DLRM"
-        #url: /docs/upgrading/
-      - title: "Characterizing Access Pattern"
-        #url: /docs/upgrading/
+      - title: "Characterizing Embedding Access Pattern"
+        url: /docs/access/
       - title: "Embedding Placement"
         #url: /docs/upgrading/
       - title: "Running FAE"
