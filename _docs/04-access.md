@@ -1,5 +1,5 @@
 ---
-title: "Characterizing Embedding Access Pattern"
+title: "Embedding Access Pattern"
 permalink: /docs/access/
 excerpt: "Characterizing Embedding Access Pattern for tutorial dataset."
 last_modified_at: 2018-03-20T15:19:22-04:00
