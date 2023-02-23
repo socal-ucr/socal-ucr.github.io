@@ -3,7 +3,7 @@ title: "Setting Up Github Repo"
 permalink: /docs/github/
 excerpt: "Setting up github repor for tutorial."
 last_modified_at: 2023-02-23T08:48:05-04:00
-toc: true
+toc: false
 ---
 
 Clone the github repor in your colab using
