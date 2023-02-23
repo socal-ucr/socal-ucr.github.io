@@ -2,7 +2,7 @@
 title: "Navigation"
 permalink: /docs/navigation/
 excerpt: "Instructions on how to customize the main navigation and enabling breadcrumb links."
-last_modified_at: 2018-03-20T15:59:40-04:00
+last_modified_at: 2023-02-23T08:48:05-04:00
 toc: true
 ---
 

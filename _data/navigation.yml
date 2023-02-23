@@ -39,7 +39,7 @@ docs:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
       - title: "Setting Up Colab"
-        #url: /docs/structure/
+        url: /docs/colab/
       - title: "Pre-processing Training Data"
         #url: /docs/installation/
       - title: "Setting Up DLRM"
