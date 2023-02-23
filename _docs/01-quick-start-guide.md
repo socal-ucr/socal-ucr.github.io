@@ -18,11 +18,11 @@ Download the training dataset used for tutotial [here](https://drive.google.com/
 
 Create folder in your google drive to place the training data.
 <figure>
-  <img src="{{ '/assets/tutotial/google_drive_folder.png' | relative_url }}" alt="fork Minimal Mistakes">
+  <img src="{{ '/assets/tutorial/google_drive_folder.png' | relative_url }}" alt="fork Minimal Mistakes">
 </figure>
 
 Upload the downloaded training dataset in the folder.
 <figure>
-  <img src="{{ '/assets/tutotial/dataset_upload.png' }}">
+  <img src="{{ '/assets/tutorial/dataset_upload.png' }}">
 </figure>
 
