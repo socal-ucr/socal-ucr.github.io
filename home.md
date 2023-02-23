@@ -46,7 +46,7 @@ Anyone looking for understanding the basics of deep learning based recommendatio
 | 9:15 am    | Setting Up resources for training                         | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
 | 10:00 am   | Coffee Break                                              |                                                        |        |
 | ---------- | --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 10:20 am   | Compute vs Memory Intensity                               | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
+| 10:20 am   | Skewness in Embedding Access Pattern                      | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
 | 10:40 am   | Baseline DLRM Training Profiling                          | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
 | 11:15 am   | FAE Training                                              | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
 | 12:10 am   | Conclusion                                                | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
