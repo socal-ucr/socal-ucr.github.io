@@ -2,7 +2,8 @@
 title: "Running DLRM"
 permalink: /docs/dlrm/
 excerpt: "Running Baseline DLRM."
-last_modified_at: 2021-05-11T10:40:42-04:00
+last_modified_at: 2023-02-23T08:48:05-04:00
+toc: false
 ---
 
 To run the DLRM baseline open `run_dlrm_baseline.sh`

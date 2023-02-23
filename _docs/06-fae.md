@@ -2,7 +2,8 @@
 title: "Running FAE"
 permalink: /docs/fae/
 excerpt: "Running FAE."
-last_modified_at: 2021-05-11T10:40:42-04:00
+last_modified_at: 2023-02-23T08:48:05-04:00
+toc: false
 ---
 
 To run the FAE with intelligent embedding placement first we need to profile the embeddings based on available GPU memory.

@@ -2,8 +2,8 @@
 title: "Embedding Access Pattern"
 permalink: /docs/access/
 excerpt: "Characterizing Embedding Access Pattern for tutorial dataset."
-last_modified_at: 2018-03-20T15:19:22-04:00
-toc: true
+last_modified_at: 2023-02-23T08:48:05-04:00
+toc: false
 ---
 
 To charaterize the embedding access pattern open `run_dlrm_access_freq.sh`

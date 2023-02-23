@@ -2,7 +2,7 @@
 title: "Setting Up Colab"
 permalink: /docs/colab/
 excerpt: "Setting up colab for tutorial."
-last_modified_at: 2018-03-20T15:19:22-04:00
+last_modified_at: 2023-02-23T08:48:05-04:00
 toc: true
 ---
 
