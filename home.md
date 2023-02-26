@@ -40,15 +40,15 @@ Anyone looking for understanding the basics of deep learning based recommendatio
 
 | Time (EST) | Session Details                                           | Speaker                                                | Slides |
 | -----------| --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 8:00 am    | Introduction to Recommender Systems                       | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
-| 8:20 am    | Deep Learning based Recommendation Models (DLRM)          | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 8:45 am    | Challenges Associated with Training Recommendation Models | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
+| 8:00 am    | Introduction to Recommender Systems                       | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/) |  [Slides](https://drive.google.com/file/d/1jzYnnl6GFzDxlHz9p146UzJDlEciciTO/view?usp=sharing)      |
+| 8:20 am    | Deep Learning based Recommendation Models (DLRM)          | [Prashant J. Nair](https://prashantnair.bitbucket.io/)      |   [Slides](https://drive.google.com/file/d/1RI4pWZo8oejQMrCBJoPHPsir1F2jodH9/view?usp=sharing)     |
+| 8:45 am    | Challenges Associated with Training Recommendation Models | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |   [Slides](https://drive.google.com/file/d/11oEt-CQpKaycQWOaY1f8Z-GO5QYR2loy/view?usp=sharing)     |
 | 9:15 am    | Setting Up resources for training                         | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
 | 10:00 am   | Coffee Break                                              |                                                        |        |
 | ---------- | --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 10:20 am   | Skewness in Embedding Access Pattern                      | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
-| 10:40 am   | Baseline DLRM Training Profiling                          | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 11:15 am   | FAE Training                                              | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
+| 10:20 am   | Skewness in Embedding Access Pattern                      | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |    [Slides](https://drive.google.com/file/d/1XCXuto7UNOfZP61J4-pfhKme0L88UBYB/view?usp=sharing)    |
+| 10:40 am   | Baseline DLRM Training Profiling                          | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |   [Slides](https://drive.google.com/file/d/1nO8TZboasRyZMvmx7-0UcQR1Wz8UNcX8/view?usp=sharing)     |
+| 11:15 am   | FAE Training                                              | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |   [Slides](https://drive.google.com/file/d/1iPiBZREfml_WaDqQEo1TIstD6FDYImHD/view?usp=sharing)     |
 | 12:10 am   | Conclusion                                                | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
 
 
