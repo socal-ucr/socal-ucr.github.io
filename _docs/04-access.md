@@ -20,7 +20,7 @@ Run the embedding access pattern characterizattion by
    !./run_dlrm_access_freq.sh
 ```
 
-You will be able to see the `access_freq.png` showing the access pattern of given embedding table sorted based on access frequency.
+You will be able to see the `access_freq.png` under`./input/kaggle` showing the access pattern of given embedding table sorted based on access frequency.
 
 <figure>
   <img src="{{ '/assets/tutorial/access_freq.png' }}">

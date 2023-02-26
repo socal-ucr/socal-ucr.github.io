@@ -18,35 +18,23 @@ Change directory to `HPCA_Tutorial`
    cd Accelerating-RecSys-Training/HPCA_Tutorial/
 ```
 
-Create `input` directory for storing input files
+Create `input/kaggle` directory for storing input files
 
 ```bash
-   mkdir input
+   !mkdir -p input/kaggle
 ```
 
-Change directory to `input`
+Change directory to `input/kaggle`
 
 ```bash
-   cd input/
+   cd input/kaggle
 ```
 
-Create `kaggle` directory for Criteo Kaggle dataset
+Upload the training_dataset `train.npz` file from your mounted Google drive to kaggle directory
 
-```bash
-   mkdir kaggle
-```
-
-Change directory to `kaggle`
-
-```bash
-   cd kaggle/
-```
-
-Copy the training_dataset `train.npz` file from your mounted Google drive to kaggle directory
-
-```bash
-   cp ../../../../drive/MyDrive/HPCA_2023_Tutorial/Dataset/train.npz .
-```
+<figure>
+  <img src="{{ '/assets/tutorial/upload.png' }}">
+</figure>
 
 Your Files directory will look like this.
 

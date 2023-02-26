@@ -3,7 +3,7 @@ title: "Setting Up Colab"
 permalink: /docs/colab/
 excerpt: "Setting up colab for tutorial."
 last_modified_at: 2023-02-23T08:48:05-04:00
-toc: true
+toc: false
 ---
 
 Open colab using [link](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=Nma_JWh-W-IF)
@@ -40,25 +40,4 @@ You will see a GPU device in resources.
 
 <figure>
   <img src="{{ '/assets/tutorial/resources.png' }}">
-</figure>
-
-### Mounting Google Drive
-You can mount your google drive by clicking on `Files`
-
-<figure>
-  <img src="{{ '/assets/tutorial/files.png' }}">
-</figure>
-
-and click on `Mount Drive`
-
-<figure>
-  <img src="{{ '/assets/tutorial/drive.png' }}">
-</figure>
-
-Give permission to mount your Google Drive.
-
-Your `Files` repo will look like this.
-
-<figure>
-  <img src="{{ '/assets/tutorial/mounted_drive.png' }}">
 </figure>
