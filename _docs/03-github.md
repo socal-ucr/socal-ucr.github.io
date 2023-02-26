@@ -39,7 +39,7 @@ Upload the training_dataset `train.npz` file from your mounted Google drive to k
 Your Files directory will look like this.
 
 <figure>
-  <img src="{{ '/assets/tutorial/repo_set.png' }}">
+  <img src="{{ '/assets/tutorial/directory.png' }}">
 </figure>
 
 Change directory to `HPCA_Tutorial`

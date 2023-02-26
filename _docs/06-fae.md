@@ -29,6 +29,9 @@ This step will segregate the training dataset into hot and cold parts with hot e
   <img src="{{ '/assets/tutorial/profiling_stats.png' }}">
 </figure>
 
+Observe the percentage of input dataset that only access the hot embeddings.
+{: .notice--info}
+
 <figure>
   <img src="{{ '/assets/tutorial/new_dataset.png' }}">
 </figure>
@@ -38,6 +41,9 @@ Now you can run FAE with segregated data and hot embedding placed on GPU by
 ```bash
    !./run_dlrm_fae.sh
 ```
+
+Observe the difference in Hot optimizer time and Cold optimizer time.
+{: .notice--info}
 
 
 

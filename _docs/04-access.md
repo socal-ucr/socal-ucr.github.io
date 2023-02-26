@@ -26,3 +26,6 @@ You will be able to see the `access_freq.png` under`./input/kaggle` showing the 
   <img src="{{ '/assets/tutorial/access_freq.png' }}">
 </figure>
 
+You can observe the skewness in embedding access pattern, and how certain embeddings are accessed way more frequently in comparison to others.
+{: .notice--info}
+

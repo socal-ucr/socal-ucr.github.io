@@ -19,3 +19,6 @@ Run the DLRM training by
 ```bash
    !./run_dlrm_baseline.sh
 ```
+
+Observe the overall Foward, Backward and Optimizer time.
+{: .notice--info}
