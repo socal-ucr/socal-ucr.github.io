@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 excerpt: "Details of tutorial"
 
-last_modified_at: 2023-02-23T11:59:26-04:00
+last_modified_at: 2024-08-15T11:59:26-04:00
 toc: true
 ---
 
