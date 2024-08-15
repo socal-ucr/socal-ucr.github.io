@@ -1,0 +1,11 @@
+@inproceedings{adnan-hotline-isca2024,
+author = {Adnan, Muhammad and Maboud, Yassaman Ebrahimzadeh and Mahajan, Divya and Nair, Prashant J.},
+title = {Heterogeneous Acceleration Pipeline for Recommendation System Training},
+year = {2024},
+publisher = {IEEE Press},
+url = {https://doi.org/10.1109/ISCA59077.2024.00081},
+doi = {10.1109/ISCA59077.2024.00081},
+keywords = {recommender systems, multi-node distributed training, accelerators},
+location = {Buenos Aires, Argentina},
+series = {ISCA '24}
+}
