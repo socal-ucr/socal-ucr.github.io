@@ -2,7 +2,7 @@
 title: "Embedding Access Pattern"
 permalink: /docs/access/
 excerpt: "Characterizing Embedding Access Pattern for tutorial dataset."
-last_modified_at: 2023-02-23T08:48:05-04:00
+last_modified_at: 2024-08-15T08:48:05-04:00
 toc: false
 ---
 
