@@ -20,8 +20,8 @@ foo:
 
 # main links
 main:
-  - title: "About"
-    url: /about/
+  #- title: "About"
+  #  url: /about/
   - title: "Docs"
     url: /docs/quick-start-guide/
   - title: "GitHub"
