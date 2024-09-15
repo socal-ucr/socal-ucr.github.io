@@ -4,7 +4,7 @@ title: "About"
 excerpt: "Details of tutorial"
 
 last_modified_at: 2024-08-15T11:59:26-04:00
-toc: true
+toc: false
 ---
 
 Recommendation models are an important class of Machine Learning (ML) algorithms that offer a targeted user experience for a variety of web-services. E-commerce websites use recommendation algorithms to suggest purchases, search engines to rank search results, video streaming services to recommend videos, and social networks to suggest relevant posts. Over time, recommendation models have evolved from simple collaborative filtering designs to deep learning based approaches. Deep-learning-based recommendation models are at the core of a wide variety of services and consume significant infrastructure capacity and compute cycles in datacenters. Meta reports that more than 50% of their training cycles and around 80% of inference cycles are devoted to deep learning based recommendation models. Similar trends can be found at Google, Alibaba, and Amazon.
