@@ -9,7 +9,7 @@ toc: false
 [ISCA 2024](https://arxiv.org/abs/2204.05436): **Heterogeneous Acceleration Pipeline for Recommendation System Training**\
 Muhammad Adnan, Yassaman Ebrahimzadeh Maboud, Divya Mahajan and Prashant J. Nair.\
 "Heterogeneous Acceleration Pipeline for Recommendation System Training". *In Proceedings of 51st International Symposium on Computer Architecture (ISCA'24)*, Buenos Aires, Argentina, July 2024.\
-[Paper PDF](https://arxiv.org/pdf/2204.05436)          |  [Slides PDF](https://drive.google.com/file/d/1WEGc4x081Gxri2Soo3wYXsldd-TvMa__/view?usp=sharing)  |  [Poster PDF](https://drive.google.com/file/d/1mFNrQGbD-QmOL9mx_AxIJvjrEc-ClsLl/view?usp=sharing)  |  [BibTeX](/assets/bibtex/Hotline.bib.txt)
+[Paper PDF](https://arxiv.org/pdf/2204.05436)          |  [Slides PDF](https://drive.google.com/file/d/1WEGc4x081Gxri2Soo3wYXsldd-TvMa__/view?usp=sharing)  |  [Poster PDF](https://drive.google.com/file/d/1mFNrQGbD-QmOL9mx_AxIJvjrEc-ClsLl/view?usp=sharing)  | [IEEE](https://ieeexplore.ieee.org/abstract/document/10609644) |  [BibTeX](/assets/bibtex/Hotline.bib.txt)
 
 
 [VLDB 2022](https://dl.acm.org/toc/pvldb/2021/15/1): **Accelerating Recommendation System Training by Leveraging Popular Choices**\

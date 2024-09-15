@@ -40,7 +40,7 @@ Anyone looking for understanding the basics of deep learning based recommendatio
 
 | Time (EST) | Session Details                                           | Speaker                                                | Slides |
 | -----------| --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 8:00 am    | Introduction to Recommender Systems                       | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/) |  [Slides](https://drive.google.com/file/d/1jzYnnl6GFzDxlHz9p146UzJDlEciciTO/view?usp=sharing)      |
+| 8:00 am    | Introduction to Recommender Systems                       | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/) |  [Slides](https://drive.google.com/file/d/15sZ0sDRgi_wcKyNTuc8VaUIU4NXoovYv/view?usp=drive_link)      |
 | 8:20 am    | Deep Learning based Recommendation Models (DLRM)          | [Prashant J. Nair](https://prashantnair.bitbucket.io/)      |   [Slides](https://drive.google.com/file/d/1RI4pWZo8oejQMrCBJoPHPsir1F2jodH9/view?usp=sharing)     |
 | 8:45 am    | Challenges Associated with Training Recommendation Models | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |   [Slides](https://drive.google.com/file/d/11oEt-CQpKaycQWOaY1f8Z-GO5QYR2loy/view?usp=sharing)     |
 | 9:15 am    | Setting Up resources for training                         | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
