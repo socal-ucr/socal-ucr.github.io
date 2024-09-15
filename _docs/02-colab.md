@@ -22,7 +22,7 @@ Change the Runtime by `Runtime` --> `Change runtime type`
   <img src="{{ '/assets/tutorial/change_runtime.png' }}">
 </figure>
 
-Select `GPU` as runtime.
+Select `python 3` as Runtime type and `T4 GPU` as Hardware accelerator.
 
 <figure>
   <img src="{{ '/assets/tutorial/GPU.png' }}">

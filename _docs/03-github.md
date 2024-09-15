@@ -12,10 +12,10 @@ Clone the github repor in your colab using
    !git clone https://github.com/STAR-Laboratory/Accelerating-RecSys-Training.git
 ```
 
-Change directory to `HPCA_Tutorial`
+Change directory to `IISWC_Tutorial`
 
 ```bash
-   cd Accelerating-RecSys-Training/HPCA_Tutorial/
+   cd Accelerating-RecSys-Training/IISWC_Tutorial/
 ```
 
 Create `input/kaggle` directory for storing input files
@@ -42,7 +42,7 @@ Your Files directory will look like this.
   <img src="{{ '/assets/tutorial/directory.png' }}">
 </figure>
 
-Change directory to `HPCA_Tutorial`
+Change directory to `IISWC_Tutorial`
 
 ```bash
    cd ../..
