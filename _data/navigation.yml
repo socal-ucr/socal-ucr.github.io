@@ -28,6 +28,8 @@ main:
     url: "https://github.com/socal-ucr"
   - title: "Publications"
     url: "https://www.danielwong.org/publication.html"
+  - title: "Research Group"
+    url: "https://www.danielwong.org/research.html"
   # - title: "Publications"
   #   url: /publications/
   #- title: "Terms &amp; Privacy Policy"
