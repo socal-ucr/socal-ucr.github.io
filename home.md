@@ -37,7 +37,7 @@ This tutorial is intended for engineers and researchers with a background in sys
 
 ## Schedule
 
-| Time (EST) | Session Details                                           | Speaker                                                | Slides |
+| Time (PST) | Session Details                                           | Speaker                                                | Slides |
 | -----------| --------------------------------------------------------- | ------------------------------------------------------ | ------ |
 | 9:00 am    | Setting up the environment                       | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/) |  [Slides](https://drive.google.com/file/d/15sZ0sDRgi_wcKyNTuc8VaUIU4NXoovYv/view?usp=drive_link)      |
 | 9:30 am    | Introduction to eBPF          | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/)      |   [Slides](https://drive.google.com/file/d/1RI4pWZo8oejQMrCBJoPHPsir1F2jodH9/view?usp=sharing)     |
