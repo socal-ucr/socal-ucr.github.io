@@ -9,9 +9,11 @@ header:
 excerpt: >
   <br />   
 ---
-# Training Big Sparse Recommendation Models on Commodity Servers
+# Observability into Application-level Metrics with eBPF
 
-Deep learning based recommendation models are one of the larget DNN workload with several TeraBytes in size and trillions of parameters. Training such big sparse recommendation models on low end GPUs is an open problem. Given the limited capacity of GPU HBM, number of GPU’s scale with embedding table size. Other option is to use commodity servers with limited number of GPU’s where embedding tables are placed on CPU main memory. But placing embedding table on CPU main memory faces system bottlenecks and slows down the overall training process.
+To provide greater insight into the complex behavior of modern data centers, non-invasive tools for observability have become increasingly important for data center management and optimization. Observability tools aim to collect various telemetries and measurements of various data center components, such as metrics (bandwidth utilization, memory utilization, etc.), logs, or distributed traces of applications. The emergence of eBPF (extended Berkeley Packet Fil- ter) has revolutionized observability and monitoring tools in the Linux ecosystem. eBPF allows the execution of custom programs in a secure, in-kernel virtual machine, thus providing a unique vantage point for monitoring system-level activities.
+Many observability tools have been built with eBPF to provide observability for security, networking activity, container activity, and monitoring of distributed infrastructures, such as Kubernetes. While eBPF has historically be used to provide observability in distributed infrastructures, the use of eBPF to guide management within a single server is not well explored.
+This tutorial will introduce the eBPF framework and demonstrate how eBPF can provide observability into data center workloads to guide server management runtimes. The tutorial will include lectures and hands-on demonstrations on the eBPF framework, how to develop eBPF programs for observability, how to interface userspace code with eBPF, and how eBPF-based tools can be used for various server management runtimes, such as resource management and dynamic power management.
 
 ## Goal
 
