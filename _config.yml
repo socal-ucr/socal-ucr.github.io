@@ -103,9 +103,9 @@ analytics:
 # Site Author
 author:
   name             : "Systems and Architecture Lab" # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/starlablogo.jpeg"
+  avatar           : "/assets/images/socal-logo.png" # path to image in assets
   bio              : #"Just another *boring*, *tattooed*, *time traveling*, *designer*."
-  location         : "Vancouver, Canada"
+  location         : "University of California, Riverside"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
