@@ -2,7 +2,7 @@
 title: "Quick-Start Guide"
 permalink: /docs/quick-start-guide/
 excerpt: "Setting up the environment to run eBPF program"
-last_modified_at: 2024-08-15T08:48:05-04:00
+last_modified_at: 2025-08-26T08:48:05-04:00
 toc: false
 ---
 
