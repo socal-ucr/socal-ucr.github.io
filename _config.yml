@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "IISWC 2024 Tutorial (September 15, 2024)"
+title                    : "IISWC 2025 Tutorial (October 12, 2025)"
 title_separator          : "-"
 subtitle                 : #"IISWC 2024 Tutorial"
-name                     : "STAR LAB"
-description              : "Tutorial for IISWC 2024."
-url                      : https://STAR-Laboratory.github.io
+name                     : "SOCAL"
+description              : "Tutorial for IISWC 2025."
+url                      : https://socal-ucr.github.io/
 baseurl                  : #"/home"
-repository               : "STAR-Laboratory/STAR-Laboratory.github.io"
+repository               : "socal-ucr/socal-ucr.github.io"
 teaser                   : #"/assets/images/Reco.png"
 logo                     : #"/assets/images/Reco.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
