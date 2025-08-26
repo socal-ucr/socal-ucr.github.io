@@ -42,16 +42,16 @@ docs:
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
-      # - title: "Setting Up Colab"
-      #   url: /docs/colab/
-      # - title: "Setting Up Github Repo"
-      #   url: /docs/github/
-      # - title: "Embedding Access Pattern"
-      #   url: /docs/access/
-      # - title: "Running DLRM Baseline"
-      #   url: /docs/dlrm/
-      # - title: "Running FAE"
-      #   url: /docs/fae/
+      - title: "Setting Up Colab"
+        url: /docs/colab/
+      - title: "Setting Up Github Repo"
+        url: /docs/github/
+      - title: "Embedding Access Pattern"
+        url: /docs/access/
+      - title: "Running DLRM Baseline"
+        url: /docs/dlrm/
+      - title: "Running FAE"
+        url: /docs/fae/
   #- title: Customization
   #  children:
   #    - title: "Configuration"
