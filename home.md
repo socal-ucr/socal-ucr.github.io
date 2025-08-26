@@ -1,13 +1,13 @@
 ---
 layout: splash
 permalink: /
-title: "  "
+title: "Observability into Application-level Metrics with eBPF"
 hidden: false
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/main.jpg
 excerpt: >
-  <br />   
+  Learn how eBPF provides observability into modern data center workloads to guide server management and runtime optimization.
 ---
 # Observability into Application-level Metrics with eBPF
 
@@ -21,12 +21,19 @@ This tutorial will introduce the eBPF framework and demonstrate how eBPF can pro
 
 ## Audience
 
+This tutorial is intended for engineers and researchers with a background in systems programming and a general understanding of Linux and networking. No prior experience with eBPF is required.
+
 ## Requirements
 
 ### Pre-requisites
+- Familiarity with Linux and the command line.
+- Basic understanding of how servers and data centers operate.
+- Familiarity with tools like `ssh`, `git`, and general system administration tasks.
 
 ### Hardware Resources
-
+- A laptop with at least 4GB of RAM and 10GB of available disk space.
+- A working Linux environment (native or using WSL2 on Windows).
+- Preferably, administrative privileges (root/sudo) to install required packages and access kernel-level features.
 
 ## Schedule
 
@@ -40,7 +47,5 @@ This tutorial will introduce the eBPF framework and demonstrate how eBPF can pro
 | 11:00 am   | Tracing syscalls using kprobes                          | [Muntaka Ibnath](https://ibnathism.github.io/)      |   [Slides](https://drive.google.com/file/d/1nO8TZboasRyZMvmx7-0UcQR1Wz8UNcX8/view?usp=sharing)     |
 | 11:30 am   | Tracing user-space functions using uprobes                                              | [Muntaka Ibnath](https://ibnathism.github.io/)      |   [Slides](https://drive.google.com/file/d/1iPiBZREfml_WaDqQEo1TIstD6FDYImHD/view?usp=sharing)     |
 | 11:50 am   | Conclusion                                                | [Muntaka Ibnath](https://ibnathism.github.io/) |        |
-
-
 
 {% include feature_row %}
