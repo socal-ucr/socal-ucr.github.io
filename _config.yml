@@ -102,37 +102,28 @@ analytics:
 
 # Site Author
 author:
-  name             : "Systems and Architecture Lab" # *name is a YAML reference pointing to the &anchor earlier
+  name             : "Systems Optimization and Computer Architecture Lab (SoCal)" # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/socal-logo.png" # path to image in assets
   bio              : #"Just another *boring*, *tattooed*, *time traveling*, *designer*."
   location         : "University of California, Riverside"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "http://people.ece.ubc.ca/adnan/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://mobile.twitter.com/adnan_tw33ts"
+      url: "https://www.danielwong.org/research.html"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://github.com/socal-ucr"
 
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://mobile.twitter.com/adnan_tw33ts"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.danielwong.org/research.html"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/STAR-Laboratory/Accelerating-RecSys-Training"
-    - label: "Youtube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@starlab9737"
+      url: "https://github.com/socal-ucr"
 
 
 # Reading Files
@@ -276,7 +267,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)

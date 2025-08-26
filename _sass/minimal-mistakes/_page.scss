@@ -481,9 +481,9 @@ body {
 }
 
 .comment__avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
 
   @include breakpoint($large) {
     width: 80px;
