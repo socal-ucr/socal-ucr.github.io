@@ -5,7 +5,7 @@ title: "Observability into Application-level Metrics with eBPF"
 hidden: false
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/main.jpg
+  overlay_image: /assets/images/EBPF_logo.png
 excerpt: >
   Learn how eBPF provides observability into modern data center workloads to guide server management and runtime optimization.
 ---
