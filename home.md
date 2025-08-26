@@ -11,9 +11,9 @@ excerpt: >
 ---
 # Observability into Application-level Metrics with eBPF
 
-To provide greater insight into the complex behavior of modern data centers, non-invasive tools for observability have become increasingly important for data center management and optimization. Observability tools aim to collect various telemetries and measurements of various data center components, such as metrics (bandwidth utilization, memory utilization, etc.), logs, or distributed traces of applications. The emergence of eBPF (extended Berkeley Packet Fil- ter) has revolutionized observability and monitoring tools in the Linux ecosystem. eBPF allows the execution of custom programs in a secure, in-kernel virtual machine, thus providing a unique vantage point for monitoring system-level activities.
+To provide greater insight into the complex behavior of modern data centers, non-invasive tools for observability have become increasingly important for data center management and optimization. Observability tools aim to collect various telemetry and measurements of various data center components, such as metrics (bandwidth utilization, memory utilization, etc.), logs, or distributed traces of applications. The emergence of eBPF (extended Berkeley Packet Filter) has revolutionized observability and monitoring tools in the Linux ecosystem. eBPF allows the execution of custom programs in a secure, in-kernel virtual machine, thus providing a unique vantage point for monitoring system-level activities.
 
-Many observability tools have been built with eBPF to provide observability for security, networking activity, container activity, and monitoring of distributed infrastructures, such as Kubernetes. While eBPF has historically be used to provide observability in distributed infrastructures, the use of eBPF to guide management within a single server is not well explored.
+Many observability tools have been built with eBPF to provide observability for security, networking activity, container activity, and monitoring of distributed infrastructures, such as Kubernetes. While eBPF has historically been used to provide observability in distributed infrastructures, the use of eBPF to guide management within a single server is not well explored.
 
 ## Goal
 
@@ -21,32 +21,25 @@ This tutorial will introduce the eBPF framework and demonstrate how eBPF can pro
 
 ## Audience
 
-Anyone looking for understanding the basics of deep learning based recommendation models and how to train such models.
-
 ## Requirements
 
 ### Pre-requisites
-- Knowledge of basic concepts of deep learning training.
-- Familiarity with PyTorch.
 
 ### Hardware Resources
-- For the tutorial, we will use Google colab so only a Google account is required.
 
 
 ## Schedule
 
 | Time (EST) | Session Details                                           | Speaker                                                | Slides |
 | -----------| --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 9:00 am    | Introduction to Recommender Systems                       | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/) |  [Slides](https://drive.google.com/file/d/15sZ0sDRgi_wcKyNTuc8VaUIU4NXoovYv/view?usp=drive_link)      |
-| 9:20 am    | Deep Learning based Recommendation Models (DLRM)          | [Prashant J. Nair](https://prashantnair.bitbucket.io/)      |   [Slides](https://drive.google.com/file/d/1RI4pWZo8oejQMrCBJoPHPsir1F2jodH9/view?usp=sharing)     |
-| 9:45 am    | Challenges Associated with Training Recommendation Models | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |   [Slides](https://drive.google.com/file/d/11oEt-CQpKaycQWOaY1f8Z-GO5QYR2loy/view?usp=sharing)     |
-| 10:15 am    | Setting Up resources for training                         | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |        |
-| 11:00 am   | Coffee Break                                              |                                                        |        |
-| ---------- | --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 11:20 am   | Skewness in Embedding Access Pattern                      | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |    [Slides](https://drive.google.com/file/d/1XCXuto7UNOfZP61J4-pfhKme0L88UBYB/view?usp=sharing)    |
-| 11:40 am   | Baseline DLRM Training Profiling                          | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |   [Slides](https://drive.google.com/file/d/1nO8TZboasRyZMvmx7-0UcQR1Wz8UNcX8/view?usp=sharing)     |
-| 12:15 am   | FAE Training                                              | [Muhammad Adnan](http://people.ece.ubc.ca/adnan/)      |   [Slides](https://drive.google.com/file/d/1iPiBZREfml_WaDqQEo1TIstD6FDYImHD/view?usp=sharing)     |
-| 1:10 am   | Conclusion                                                | [Prashant J. Nair](https://prashantnair.bitbucket.io/) |        |
+| 9:00 am    | Setting up the environment                       | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/) |  [Slides](https://drive.google.com/file/d/15sZ0sDRgi_wcKyNTuc8VaUIU4NXoovYv/view?usp=drive_link)      |
+| 9:30 am    | Introduction to eBPF          | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/)      |   [Slides](https://drive.google.com/file/d/1RI4pWZo8oejQMrCBJoPHPsir1F2jodH9/view?usp=sharing)     |
+| 9:50 am    | eBPF "Hello World" | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/)      |   [Slides](https://drive.google.com/file/d/11oEt-CQpKaycQWOaY1f8Z-GO5QYR2loy/view?usp=sharing)     |
+| 10:20 am   | Coffee Break                                              |                                                        |        |
+| 10:40 am   | Setting up the server and client                      | [Muntaka Ibnath](https://ibnathism.github.io/) |    [Slides](https://drive.google.com/file/d/1XCXuto7UNOfZP61J4-pfhKme0L88UBYB/view?usp=sharing)    |
+| 11:00 am   | Tracing syscalls using kprobes                          | [Muntaka Ibnath](https://ibnathism.github.io/)      |   [Slides](https://drive.google.com/file/d/1nO8TZboasRyZMvmx7-0UcQR1Wz8UNcX8/view?usp=sharing)     |
+| 11:30 am   | Tracing user-space functions using uprobes                                              | [Muntaka Ibnath](https://ibnathism.github.io/)      |   [Slides](https://drive.google.com/file/d/1iPiBZREfml_WaDqQEo1TIstD6FDYImHD/view?usp=sharing)     |
+| 11:50 am   | Conclusion                                                | [Muntaka Ibnath](https://ibnathism.github.io/) |        |
 
 
 
