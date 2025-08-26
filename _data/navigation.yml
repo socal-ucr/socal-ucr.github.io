@@ -25,7 +25,9 @@ main:
   - title: "Docs"
     url: /docs/quick-start-guide/
   - title: "GitHub"
-    url: ""
+    url: "https://github.com/socal-ucr"
+  - title: "Publications"
+    url: "https://www.danielwong.org/publication.html"
   # - title: "Publications"
   #   url: /publications/
   #- title: "Terms &amp; Privacy Policy"
