@@ -1,14 +1,13 @@
 ---
 layout: splash
-permalink: /
-title: " "
+permalink: /eBPF-tutorial/
+title: "eBPF Tutorial"
+excerpt: "Details of tutorial"
 hidden: false
 header:
   overlay_color: "#fafbffff"
   overlay_image: "/assets/images/EBPF_logo.png"
   image: "/assets/images/EBPF_logo.png"
-excerpt: >
-  <br /> 
 ---
 # Observability into Application-level Metrics with eBPFs
 
