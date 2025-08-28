@@ -1,8 +1,9 @@
 ---
 layout: splash
-permalink: /eBPF-tutorial/
-title: "eBPF Tutorial"
-excerpt: "Details of tutorial"
+permalink: /eBPF-tutorial
+title: ""
+excerpt: >
+  <br /> 
 hidden: false
 header:
   overlay_color: "#fafbffff"

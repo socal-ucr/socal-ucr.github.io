@@ -10,7 +10,7 @@ header:
 excerpt: >
   <br /> 
 ---
-# Observability into Application-level Metrics with eBPFs
+<!-- # Observability into Application-level Metrics with eBPFs
 
 To provide greater insight into the complex behavior of modern data centers, non-invasive tools for observability have become increasingly important for data center management and optimization. Observability tools aim to collect various telemetry and measurements of various data center components, such as metrics (bandwidth utilization, memory utilization, etc.), logs, or distributed traces of applications. The emergence of eBPF (extended Berkeley Packet Filter) has revolutionized observability and monitoring tools in the Linux ecosystem. eBPF allows the execution of custom programs in a secure, in-kernel virtual machine, thus providing a unique vantage point for monitoring system-level activities.
 
@@ -49,4 +49,4 @@ This tutorial is intended for engineers and researchers with a background in sys
 | 11:30 am   | Tracing user-space functions using uprobes                                              | [Muntaka Ibnath](https://ibnathism.github.io/)      |   [Slides](https://drive.google.com/file/d/1iPiBZREfml_WaDqQEo1TIstD6FDYImHD/view?usp=sharing)     |
 | 11:50 am   | Conclusion                                                | [Muntaka Ibnath](https://ibnathism.github.io/) |        |
 
-{% include feature_row %}
+{% include feature_row %} -->
