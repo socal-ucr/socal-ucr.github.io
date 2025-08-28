@@ -22,17 +22,13 @@ foo:
 main:
   #- title: "About"
   #  url: /about/
-  # - title: "eBPF Tutorial"
-  #   url: /eBPF-tutorial/
   - title: "Docs"
     url: /docs/quick-start-guide/
   - title: "GitHub"
     url: "https://github.com/socal-ucr"
-  # - title: "Publications"
-  #   url: "https://www.danielwong.org/publication.html"
   - title: "SOCAL"
     url: "https://www.danielwong.org/research.html"
-  - title: "Publications"
+  # - title: "Publications"
   #   url: /publications/
   #- title: "Terms &amp; Privacy Policy"
   #  url: /terms/
