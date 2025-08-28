@@ -22,7 +22,7 @@ subtitle                 : #"IISWC 2024 Tutorial"
 name                     : "SOCAL"
 description              : "Tutorial for IISWC 2025."
 url                      : https://socal-ucr.github.io/eBPF-tutorial/
-baseurl                  : #"/home"
+baseurl                  : "/eBPF-tutorial/"
 repository               : "socal-ucr/socal-ucr.github.io"
 teaser                   : #"/assets/images/Reco.png"
 logo                     : #"/assets/images/Reco.png"
