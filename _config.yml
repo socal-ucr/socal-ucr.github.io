@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SOCAL"
+title                    : ""
 title_separator          : "-"
 subtitle                 : #"IISWC 2024 Tutorial"
 name                     : "SOCAL"
 description              : ""
-url                      : https://www.danielwong.org/research.html
+url                      : https://socal-ucr.github.io/
 baseurl                  : #"/eBPF-tutorial/"
 repository               : "socal-ucr/socal-ucr.github.io"
 teaser                   : #"/assets/images/Reco.png"
