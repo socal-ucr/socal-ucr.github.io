@@ -3,10 +3,10 @@ layout: splash
 permalink: /
 title: " "
 hidden: false
-header:
-  overlay_color: "#fafbffff"
-  overlay_image: "/assets/images/EBPF_logo.png"
-  image: "/assets/images/EBPF_logo.png"
+# header:
+#   overlay_color: "#fafbffff"
+#   overlay_image: "/assets/images/EBPF_logo.png"
+#   image: "/assets/images/EBPF_logo.png"
 excerpt: >
   <br /> 
 ---

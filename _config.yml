@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : #"IISWC 2024 Tutorial"
 name                     : "SOCAL"
 description              : "Tutorial for IISWC 2025."
-url                      : https://socal-ucr.github.io/
+url                      : https://socal-ucr.github.io/eBPF-tutorial/
 baseurl                  : #"/home"
 repository               : "socal-ucr/socal-ucr.github.io"
 teaser                   : #"/assets/images/Reco.png"

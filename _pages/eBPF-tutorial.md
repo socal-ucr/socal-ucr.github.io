@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /eBPF-tutorial
+permalink: /eBPF-tutorial/
 title: ""
 excerpt: >
   <br /> 
