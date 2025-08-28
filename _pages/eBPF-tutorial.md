@@ -1,12 +1,16 @@
 ---
-permalink: /about/
-title: "About"
-excerpt: "Details of tutorial"
-
-last_modified_at: 2025-08-26T08:48:05-04:00
-toc: false
+layout: splash
+permalink: /
+title: " "
+hidden: false
+header:
+  overlay_color: "#fafbffff"
+  overlay_image: "/assets/images/EBPF_logo.png"
+  image: "/assets/images/EBPF_logo.png"
+excerpt: >
+  <br /> 
 ---
-
+# Observability into Application-level Metrics with eBPFs
 
 To provide greater insight into the complex behavior of modern data centers, non-invasive tools for observability have become increasingly important for data center management and optimization. Observability tools aim to collect various telemetry and measurements of various data center components, such as metrics (bandwidth utilization, memory utilization, etc.), logs, or distributed traces of applications. The emergence of eBPF (extended Berkeley Packet Filter) has revolutionized observability and monitoring tools in the Linux ecosystem. eBPF allows the execution of custom programs in a secure, in-kernel virtual machine, thus providing a unique vantage point for monitoring system-level activities.
 
@@ -15,6 +19,22 @@ Many observability tools have been built with eBPF to provide observability for 
 ## Goal
 
 This tutorial will introduce the eBPF framework and demonstrate how eBPF can provide observability into data center workloads to guide server management runtimes. The tutorial will include lectures and hands-on demonstrations on the eBPF framework, how to develop eBPF programs for observability, how to interface userspace code with eBPF, and how eBPF-based tools can be used for various server management runtimes, such as resource management and dynamic power management.
+
+## Audience
+
+This tutorial is intended for engineers and researchers with a background in systems programming and a general understanding of Linux and networking. No prior experience with eBPF is required.
+
+## Requirements
+
+### Pre-requisites
+- Familiarity with Linux and the command line.
+- Basic understanding of how servers and data centers operate.
+- Familiarity with tools like `ssh`, `git`, and general system administration tasks.
+
+### Hardware Resources
+- A laptop with at least 4GB of RAM and 10GB of available disk space.
+- A working Linux environment (native or using WSL2 on Windows).
+- Preferably, administrative privileges (root/sudo) to install required packages and access kernel-level features.
 
 ## Schedule
 
@@ -28,3 +48,5 @@ This tutorial will introduce the eBPF framework and demonstrate how eBPF can pro
 | 11:00 am   | Tracing syscalls using kprobes                          | [Muntaka Ibnath](https://ibnathism.github.io/)      |   [Slides](https://drive.google.com/file/d/1nO8TZboasRyZMvmx7-0UcQR1Wz8UNcX8/view?usp=sharing)     |
 | 11:30 am   | Tracing user-space functions using uprobes                                              | [Muntaka Ibnath](https://ibnathism.github.io/)      |   [Slides](https://drive.google.com/file/d/1iPiBZREfml_WaDqQEo1TIstD6FDYImHD/view?usp=sharing)     |
 | 11:50 am   | Conclusion                                                | [Muntaka Ibnath](https://ibnathism.github.io/) |        |
+
+{% include feature_row %}
