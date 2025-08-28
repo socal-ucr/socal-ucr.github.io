@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "IISWC 2025 Tutorial (October 12, 2025)"
+title                    : ""
 title_separator          : "-"
 subtitle                 : #"IISWC 2024 Tutorial"
 name                     : "SOCAL"
-description              : "Tutorial for IISWC 2025."
-url                      : https://socal-ucr.github.io/eBPF-tutorial/
-# baseurl                  : "/eBPF-tutorial/"
+description              : ""
+url                      : https://socal-ucr.github.io
+baseurl                  : #"/eBPF-tutorial/"
 repository               : "socal-ucr/socal-ucr.github.io"
 teaser                   : #"/assets/images/Reco.png"
 logo                     : #"/assets/images/Reco.png"
