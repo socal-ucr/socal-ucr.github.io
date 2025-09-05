@@ -19,7 +19,7 @@ Many observability tools have been built with eBPF to provide observability for 
 
 ## Goal
 
-This tutorial will introduce the eBPF framework and demonstrate how eBPF can provide observability into data center workloads to guide server management runtimes. The tutorial will include lectures and hands-on demonstrations on the eBPF framework, how to develop eBPF programs for observability, how to interface userspace code with eBPF, and how eBPF-based tools can be used for various server management runtimes, such as resource management and dynamic power management.
+This tutorial will introduce the eBPF framework and demonstrate how eBPF can provide observability into data center workloads to guide server management runtimes. The tutorial will include lectures and hands-on demonstrations on the eBPF framework, how to develop eBPF programs for observability, how to interface userspace code with eBPF, and how eBPF-based tools can be used for various server management runtimes.
 
 ## Audience
 
@@ -41,13 +41,14 @@ This tutorial is intended for engineers and researchers with a background in sys
 
 | Time (PST) | Session Details                                           | Speaker                                                | Slides |
 | -----------| --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 9:00 am    | Setting up the environment                       | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/) |  [Slides](https://drive.google.com/file/d/15sZ0sDRgi_wcKyNTuc8VaUIU4NXoovYv/view?usp=drive_link)      |
-| 9:30 am    | Introduction to eBPF          | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/)      |   [Slides](https://drive.google.com/file/d/1RI4pWZo8oejQMrCBJoPHPsir1F2jodH9/view?usp=sharing)     |
+| 9:00 am    | Welcome Statement                       | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/) |  [Slides](https://drive.google.com/file/d/15sZ0sDRgi_wcKyNTuc8VaUIU4NXoovYv/view?usp=drive_link)      |
+| 9:10 am    | Introduction to eBPF                       | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/) |  [Slides](https://drive.google.com/file/d/15sZ0sDRgi_wcKyNTuc8VaUIU4NXoovYv/view?usp=drive_link)      |
+| 9:30 am    | Setting up the environment          | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/)      |   [Slides](https://drive.google.com/file/d/1RI4pWZo8oejQMrCBJoPHPsir1F2jodH9/view?usp=sharing)     |
 | 9:50 am    | eBPF "Hello World" | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/)      |   [Slides](https://drive.google.com/file/d/11oEt-CQpKaycQWOaY1f8Z-GO5QYR2loy/view?usp=sharing)     |
 | 10:20 am   | Coffee Break                                              |                                                        |        |
-| 10:40 am   | Setting up the server and client                      | [Muntaka Ibnath](https://ibnathism.github.io/) |    [Slides](https://drive.google.com/file/d/1XCXuto7UNOfZP61J4-pfhKme0L88UBYB/view?usp=sharing)    |
+| 10:40 am   | Introduction to Server-Client Workloads                      | [Muntaka Ibnath](https://ibnathism.github.io/) |    [Slides](https://drive.google.com/file/d/1XCXuto7UNOfZP61J4-pfhKme0L88UBYB/view?usp=sharing)    |
 | 11:00 am   | Tracing syscalls using kprobes                          | [Muntaka Ibnath](https://ibnathism.github.io/)      |   [Slides](https://drive.google.com/file/d/1nO8TZboasRyZMvmx7-0UcQR1Wz8UNcX8/view?usp=sharing)     |
 | 11:30 am   | Tracing user-space functions using uprobes                                              | [Muntaka Ibnath](https://ibnathism.github.io/)      |   [Slides](https://drive.google.com/file/d/1iPiBZREfml_WaDqQEo1TIstD6FDYImHD/view?usp=sharing)     |
-| 11:50 am   | Conclusion                                                | [Muntaka Ibnath](https://ibnathism.github.io/) |        |
+| 11:50 am   | Closing Statement                                               | [Muntaka Ibnath](https://ibnathism.github.io/) |        |
 
 {% include feature_row %}
