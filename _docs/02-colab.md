@@ -1,6 +1,6 @@
 ---
 title: "Setting Up Colab"
-permalink: /docs/colab/
+permalink: /eBPF-tutorial/docs/colab/
 excerpt: "Setting up colab for tutorial."
 last_modified_at: 2024-08-15T08:48:05-04:00
 toc: false

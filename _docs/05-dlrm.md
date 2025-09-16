@@ -1,6 +1,6 @@
 ---
 title: "Running DLRM"
-permalink: /docs/dlrm/
+permalink: /eBPF-tutorial/docs/dlrm/
 excerpt: "Running Baseline DLRM."
 last_modified_at: 2024-08-15T08:48:05-04:00
 toc: false

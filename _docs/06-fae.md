@@ -1,6 +1,6 @@
 ---
 title: "Running FAE"
-permalink: /docs/fae/
+permalink: /eBPF-tutorial/docs/fae/
 excerpt: "Running FAE."
 last_modified_at: 2024-08-15T08:48:05-04:00
 toc: false

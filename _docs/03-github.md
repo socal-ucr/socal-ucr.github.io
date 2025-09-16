@@ -1,6 +1,6 @@
 ---
 title: "Setting Up Github Repo"
-permalink: /docs/github/
+permalink: /eBPF-tutorial/docs/github/
 excerpt: "Setting up github repor for tutorial."
 last_modified_at: 2024-08-15T08:48:05-04:00
 toc: false
