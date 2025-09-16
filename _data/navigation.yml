@@ -38,8 +38,8 @@ docs:
     children:
       - title: "Quick-Start Guide"
         url: /eBPF-tutorial/docs/quick-start-guide/
-      - title: "Setting Up Colab"
-        url: /eBPF-tutorial/docs/colab/
+      - title: "Installing eBPF"
+        url: /eBPF-tutorial/docs/install/
       - title: "Setting Up Github Repo"
         url: /eBPF-tutorial/docs/github/
       - title: "Embedding Access Pattern"
