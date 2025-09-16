@@ -14,3 +14,4 @@ This guide will help you get started with the tutorial.
 - Preferably, administrative privileges (root/sudo) to install required packages and access kernel-level features.
 
 ### Setting up the environment
+- (Details on setting up the VM)
