@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /eBPF-tutorial/about/
 title: "About"
 excerpt: "Details of tutorial"
 
