@@ -40,14 +40,14 @@ docs:
         url: /eBPF-tutorial/docs/quick-start-guide/
       - title: "Installing eBPF"
         url: /eBPF-tutorial/docs/install/
-      - title: "Setting Up Github Repo"
-        url: /eBPF-tutorial/docs/github/
-      - title: "Embedding Access Pattern"
-        url: /eBPF-tutorial/docs/access/
-      - title: "Running DLRM Baseline"
-        url: /eBPF-tutorial/docs/dlrm/
-      - title: "Running FAE"
-        url: /eBPF-tutorial/docs/fae/
+      - title: "Setting Up the Workloads"
+        url: /eBPF-tutorial/docs/workload/
+      - title: "eBPF Example Programs"
+        url: /eBPF-tutorial/docs/example/
+      # - title: "Running DLRM Baseline"
+      #   url: /eBPF-tutorial/docs/dlrm/
+      # - title: "Running FAE"
+      #   url: /eBPF-tutorial/docs/fae/
   #- title: Customization
   #  children:
   #    - title: "Configuration"

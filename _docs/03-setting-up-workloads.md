@@ -1,7 +1,7 @@
 ---
-title: "Setting Up Github Repo"
-permalink: /eBPF-tutorial/docs/github/
-excerpt: "Setting up github repor for tutorial."
+title: "Setting Up the Workloads"
+permalink: /eBPF-tutorial/docs/workload/
+excerpt: "Setting up the workloads for tutorial."
 last_modified_at: 2024-08-15T08:48:05-04:00
 toc: false
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Embedding Access Pattern"
+title: "eBPF Example Programs"
 permalink: /eBPF-tutorial/docs/access/
-excerpt: "Characterizing Embedding Access Pattern for tutorial dataset."
+excerpt: "eBPF Example Codes for kprobes and uprobes"
 last_modified_at: 2024-08-15T08:48:05-04:00
 toc: false
 ---
