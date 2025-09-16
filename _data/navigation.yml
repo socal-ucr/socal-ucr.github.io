@@ -37,17 +37,17 @@ docs:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+        url: /eBPF-tutorial/docs/quick-start-guide/
       - title: "Setting Up Colab"
-        url: /docs/colab/
+        url: /eBPF-tutorial/docs/colab/
       - title: "Setting Up Github Repo"
-        url: /docs/github/
+        url: /eBPF-tutorial/docs/github/
       - title: "Embedding Access Pattern"
-        url: /docs/access/
+        url: /eBPF-tutorial/docs/access/
       - title: "Running DLRM Baseline"
-        url: /docs/dlrm/
+        url: /eBPF-tutorial/docs/dlrm/
       - title: "Running FAE"
-        url: /docs/fae/
+        url: /eBPF-tutorial/docs/fae/
   #- title: Customization
   #  children:
   #    - title: "Configuration"
