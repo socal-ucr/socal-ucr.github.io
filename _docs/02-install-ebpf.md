@@ -5,7 +5,7 @@ excerpt: "Installing eBPF for tutorial."
 last_modified_at: 2024-08-15T08:48:05-04:00
 toc: false
 ---
-# Step 1: Install Required Dependencies
+## Step 1: Install Required Dependencies
 
 eBPF tools require some essential packages like clang, llvm, bpfcc-tools, and bpftool. Run the following command to install these packages:
 
