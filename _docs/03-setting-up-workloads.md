@@ -5,9 +5,9 @@ excerpt: "Setting up the workloads for tutorial."
 last_modified_at: 2024-08-15T08:48:05-04:00
 toc: false
 ---
-# Step 5: Setting Up the Workloads(Triton server and client)
+## Step 5: Setting up the Docker Containers for Triton server and client
 
-In this step, we will set up a Docker container for the Triton server and configure the example model repository.
+In this step, we will set up a Docker container for the Triton server and client and configure the example model repository.
 
 ### 1. Create the Docker Container for the Triton Inference Server
 
