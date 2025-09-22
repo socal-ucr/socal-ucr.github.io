@@ -11,8 +11,7 @@ toc: false
 To set up Docker for the workloads, follow these steps:
 
 ### For Ubuntu/Debian-based Systems:
-1. **Update the system**
-  Update the system and install the required dependencies for Docker:
+1. **Update the system and install the required dependencies for Docker:***
   
   ```bash
   sudo apt update
