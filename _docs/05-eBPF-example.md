@@ -44,7 +44,7 @@ The "Hello World" example demonstrates how to use eBPF to trace a specific sysca
     This program will print "Hello World!" to the trace output every time an execve syscall is invoked.
 
 ## Kprobe Example
-    In this example, we use eBPF to trace recvfrom and sendto syscalls in a running Docker container for Triton. It demonstrates how to use kprobes to capture and print information about system calls.
+In this example, we use eBPF to trace recvfrom and sendto syscalls in a running Docker container for Triton. It demonstrates how to use kprobes to capture and print information about system calls.
 
 ### Important Steps:
 1. **Import the necessary libraries:**
