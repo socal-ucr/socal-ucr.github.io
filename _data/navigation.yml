@@ -39,7 +39,9 @@ docs:
       - title: "Quick-Start Guide"
         url: /eBPF-tutorial/docs/quick-start-guide/
       - title: "Installing eBPF"
-        url: /eBPF-tutorial/docs/install/
+        url: /eBPF-tutorial/docs/install-ebpf/
+      - title: "Installing Docker"
+        url: /eBPF-tutorial/docs/install-docker/
       - title: "Setting Up the Workloads"
         url: /eBPF-tutorial/docs/workload/
       - title: "eBPF Example Programs"
