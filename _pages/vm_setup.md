@@ -60,19 +60,18 @@ gcloud compute instances create initial-setup-test --project=ucr-ursa-major-soca
 - `chmod -Rv 0700 .`
 - `chown -Rv ebpftutorial .`
 
+## Setting Password
+- `passwd ebpftutorial`
+- set safe password (at least 8 character)
+
+to enable password login changed `/etc/ssh/sshd_config`
+
+## Notes
+- environemntal variables in /etc/profile.d
+- IPs are not gonna be the same after reset
+
+# Snapshot
 
 # Questions
 
-- Same key? password? 
-
-`useradd -m -s /bin/bash ebpftutorial`
-`passwd ebpftutorial` -> set safe password (at least 8 character)
-changed /etc/ssh/sshd_config
-
-- environemntal variables in /etc/profile.d
-
-- IPs are not gonna be the same after reset
-
-- Cost of servers? Create them before hand and start them as they needed?
-
-- Do we need snapshot? Is it a good idea to save an snapshot of our setup and load new from there? Single user and same key just with new IP?
+- Ubuntu is 22.04. Why not 24.04?
