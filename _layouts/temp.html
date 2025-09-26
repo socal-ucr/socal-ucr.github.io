@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key-Value Lookup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            flex-direction: column;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        input, button {
+            padding: 0.5em;
+            margin: 0.5em 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+        #result {
+            margin-top: 1em;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Find a Value</h1>
+        <p>Enter a key to see its corresponding value.</p>
+        <input type="text" id="keyInput" placeholder="Enter key...">
+        <button onclick="lookupValue()">Lookup</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        // Define your key-value pairs here
+        const data = {
+            "apple": "A red or green fruit that grows on trees.",
+            "banana": "A long, curved fruit with a yellow peel.",
+            "carrot": "A long, orange vegetable that is a root.",
+            "computer": "An electronic device for storing and processing data."
+        };
+
+        function lookupValue() {
+            // Get the value from the input field and convert to lowercase
+            const key = document.getElementById('keyInput').value.toLowerCase();
+            const resultDiv = document.getElementById('result');
+
+            // Check if the key exists in our data
+            if (data[key]) {
+                // If it exists, display the corresponding value
+                resultDiv.textContent = data[key];
+            } else {
+                // If it doesn't exist, display a "not found" message
+                resultDiv.textContent = "Value not found for this key.";
+            }
+        }
+    </script>
+</body>
+</html>
