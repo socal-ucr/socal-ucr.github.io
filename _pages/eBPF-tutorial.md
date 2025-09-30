@@ -41,7 +41,7 @@ This tutorial is intended for engineers and researchers with a background in sys
 
 | Time (PST) | Session Details                                           | Speaker                                                | Slides |
 | -----------| --------------------------------------------------------- | ------------------------------------------------------ | ------ |
-| 9:00 am    | Welcome Statement                       | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/) |  TBD      |
+| 9:00 am    | Welcome Statement                       | [Daniel Wong](https://www.danielwong.org/) |       |
 | 9:10 am    | Introduction to eBPF                       | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/) |  TBD      |
 | 9:30 am    | Setting up the environment          | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/)      |   TBD     |
 | 9:50 am    | eBPF "Hello World" | [Mohammadreza Rezvani](https://www.linkedin.com/in/mohammadrezarezvani/)      |   TBD     |
@@ -49,6 +49,6 @@ This tutorial is intended for engineers and researchers with a background in sys
 | 10:40 am   | Introduction to Server-Client Workloads                      | [Muntaka Ibnath](https://ibnathism.github.io/) |    TBD    |
 | 11:00 am   | Tracing syscalls using kprobes                          | [Muntaka Ibnath](https://ibnathism.github.io/)      |   TBD     |
 | 11:30 am   | Tracing user-space functions using uprobes              | [Muntaka Ibnath](https://ibnathism.github.io/)      |   TBD     |
-| 11:50 am   | Closing Statement                                               | [Muntaka Ibnath](https://ibnathism.github.io/) |        |
+| 11:50 am   | Closing Statement                                               |[Daniel Wong](https://www.danielwong.org/) |        |
 
 {% include feature_row %}
