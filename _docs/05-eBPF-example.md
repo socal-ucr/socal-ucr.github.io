@@ -110,12 +110,12 @@ Uprobes let us trace user-space functions. In this example, we hook into gRPC fu
 ### Important Steps:
 
 1. **Locate the Triton binary inside Docker’s overlay2:**
-
+    For hooking user space probes we need to find the triton binary file. The binary files of the docker containers are generally located inside the `overlay2` directory. To locate the `overlay2` directory run the following command:
     ```bash
     docker info | grep "Docker Root Dir"
     # Example: /var/snap/docker/common/var-lib-docker
     ```
-
+    Using the following command, find the specific binary file for the `tritonserver`:
     ```bash
     cd /var/snap/docker/common/var-lib-docker/overlay2
     find . -type f -name "tritonserver"
