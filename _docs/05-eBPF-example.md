@@ -103,6 +103,75 @@ In this example, we use eBPF to trace `recvfrom` and `sendto` syscalls in a runn
 
 
 
+## Uprobe Example
 
-TODO
-- uprobe and how to run
+Uprobes let us trace user-space functions. In this example, we hook into gRPC functions inside the Triton Inference Server binary.
+
+### Important Steps:
+
+1. **Locate the Triton binary inside Docker’s overlay2:**
+
+    ```bash
+    docker info | grep "Docker Root Dir"
+    # Example: /var/snap/docker/common/var-lib-docker
+    ```
+
+    ```bash
+    cd /var/snap/docker/common/var-lib-docker/overlay2
+    find . -type f -name "tritonserver"
+    ```
+    
+    ```bash
+    # Example result:
+    /var/snap/docker/common/var-lib-docker/overlay2/6f3e90...dd0f/diff/opt/tritonserver/bin/tritonserver
+    ```
+
+2. **Define the eBPF program (filter by container PID):**
+
+    ```python
+    // Uprobe: grpc_chttp2_stream constructor
+    int trace_constructor(struct pt_regs *ctx) {
+        u32 pid = bpf_get_current_pid_tgid() >> 32;
+        if (pid != PID) return 0;
+        bpf_trace_printk("gRPC Constructor Called - PID: %d\n", pid);
+        return 0;
+    }
+    ```
+    ```python
+    // Uprobe: grpc_chttp2_maybe_complete_recv_trailing_metadata
+    int trace_metadata_func(struct pt_regs *ctx) {
+        u32 pid = bpf_get_current_pid_tgid() >> 32;
+        if (pid != PID) return 0;
+        bpf_trace_printk("gRPC Metadata Function Called - PID: %d\n", pid);
+        return 0;
+    }
+    ```
+
+3. **Attach uprobes to the binary:**
+
+    ```python
+    def attach_uprobe_grpc_core(bpf, triton_binary):
+        constructor_symbol = "_ZN18grpc_chttp2_streamC1EP21grpc_chttp2_transportP20grpc_stream_refcountPKvPN9grpc_core5ArenaE"
+        metadata_symbol   = "_Z49grpc_chttp2_maybe_complete_recv_trailing_metadataP21grpc_chttp2_transportP18grpc_chttp2_stream"
+
+        bpf.attach_uprobe(name=triton_binary, sym=constructor_symbol, fn_name="trace_constructor")
+        bpf.attach_uprobe(name=triton_binary, sym=metadata_symbol,   fn_name="trace_metadata_func")
+    ```
+
+Run the tracer:
+
+    ```bash
+    sudo python triton_uprobes.py \
+    --container triton_container_name \
+    --binary /var/snap/docker/common/var-lib-docker/overlay2/6f3e90...dd0f/diff/opt/tritonserver/bin/tritonserver
+    ```
+
+Example output:
+
+    ```bash
+    gRPC Constructor Called - PID: 12345
+    gRPC Metadata Function Called - PID: 12345
+    ```
+
+This way, the uprobe section only covers the unique parts: finding the binary, the two function probes, and how to run them.
+
