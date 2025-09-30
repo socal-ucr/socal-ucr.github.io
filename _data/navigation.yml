@@ -23,7 +23,7 @@ main:
   - title: "Docs"
     url: /eBPF-tutorial/docs/quick-start-guide/
   - title: "GitHub"
-    url: "https://github.com/socal-ucr"
+    url: "https://github.com/socal-ucr/eBPF-tutorial"
   - title: "SOCAL"
     url: "https://www.danielwong.org/research.html"
   # - title: "Publications"
