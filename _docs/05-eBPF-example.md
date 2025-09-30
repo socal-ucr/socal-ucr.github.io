@@ -158,7 +158,7 @@ Uprobes let us trace user-space functions. In this example, we hook into gRPC fu
         bpf.attach_uprobe(name=triton_binary, sym=metadata_symbol,   fn_name="trace_metadata_func")
     ```
 
-Run the tracer:
+4. **Run the tracer:**
 
     ```bash
     sudo python triton_uprobes.py \
@@ -166,7 +166,7 @@ Run the tracer:
     --binary /var/snap/docker/common/var-lib-docker/overlay2/6f3e90...dd0f/diff/opt/tritonserver/bin/tritonserver
     ```
 
-Example output:
+5. **Example output:**
 
     ```bash
     gRPC Constructor Called - PID: 12345
